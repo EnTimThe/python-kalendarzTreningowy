@@ -1,8 +1,9 @@
 
 
-
+#zbiór zawierający plan
 planTreningowy = {}
 
+#dodawanie pozycji do planu treningowego
 stop = input("Czy chcesz dodać nowe ćwiczenie (y/n)? ")
 
 while stop == "y":
@@ -25,6 +26,7 @@ for id, dictionary in planTreningowy.items():
 
 print("\n")
 
+#edycja planu treningowego
 edycjaPlanu = int(input(
     "Czy chcesz: 1. Wyświetlić ćwiczenie? 2. Usunąć ćwiczenie? 3. Dodać ćwiczenie? 4. Pominąć ten krok? (Podaj odpowiedni nr.) "))
 while edycjaPlanu == 1 or 2 or 3:
@@ -57,6 +59,7 @@ while edycjaPlanu == 1 or 2 or 3:
     
 print("\n")
 
+#ostateczny plan treningowy
 print("Tak wygląda twój plan końcowy. Owocnych treningów!")
 
 print("\n")
